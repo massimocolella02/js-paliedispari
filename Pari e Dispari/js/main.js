@@ -5,6 +5,8 @@ function EvenOrOdd(x){
 
     if( x % 2 == 0 && even_or_odd == 'pari'){
         return true;
+    }else if( x % 2 != 0 && even_or_odd == 'dispari' ){
+        return true;
     }else{
         return false;
     }
